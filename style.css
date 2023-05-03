@@ -1,0 +1,77 @@
+.navbar{
+    background-color: rgba(53,58,64,255);
+}
+
+.caja{
+    background-image: url("imagenes/ba1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: whitesmoke;
+    text-align: right;
+    padding: 10%;
+       
+}
+.caja h1{
+    font-size: 30px;
+}
+
+.caja p{
+    font-size: 15px;
+}
+
+
+.btn-success{
+    background-color: rgba(41,167,68,255);}
+
+.caja2{
+    text-align: center;
+    padding: 20px;
+}
+.caja2 h1{
+    font-size: 12px;
+}
+.caja2 h2{
+    font-size: 26px;
+}
+.caja2 p{
+    font-size: 16px;
+}
+.btn{
+    font-weight: bold;
+}
+.btn-warning{
+    background-color: rgb(254,193,6);
+}
+.btn-info{
+    background-color: rgb(23,162,185);
+}
+
+.orador h1{
+    font-size: 20px;
+}
+.orador img{
+    max-width: 100%;
+}
+.orador p{
+    font-size: 12px;
+}
+
+.caja3{
+    background-color: rgb(53,58,64);
+    color: whitesmoke;
+
+}
+.caja3 h1{
+   
+    font-size: 22px;
+}
+
+.caja3 p{
+   
+    font-size: 12px;
+}
+
+.footer .navitem{
+    color: whitesmoke;
+}
