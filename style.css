@@ -12,7 +12,6 @@
     color: whitesmoke;
     text-align: right;
     padding: 10%;
-       
 }
 .caja h1{
     font-size: 30px;
@@ -101,4 +100,8 @@ display: flex;
 
 .footer .navitem{
     color: whitesmoke;
+}
+
+.cajasocultas{
+    display: none;
 }
