@@ -102,6 +102,86 @@ display: flex;
     color: whitesmoke;
 }
 
-.cajasocultas{
+#compraTickets{
     display: none;
+    
 }
+
+.container{
+    align-items: center;
+    width: 75%;
+}
+
+.estudiante{
+    border: solid 1px;
+    border-color: blue;
+    padding: 1%;
+    margin: 0.5%;
+    
+}
+.trainee{
+    border: solid 1px;
+    border-color: lightblue;
+    padding: 1%;
+    margin: 0.5%;
+}
+
+.junior{
+    border: solid 1px;
+    border-color: rgb(246, 212, 73);
+    padding: 1%;
+    margin: 0.5%;
+}
+.categorias{
+    text-align: center;
+}
+.categorias h1{
+    font-size: 20px;
+}
+.categorias h2{
+    font-size: 14px;
+}
+.categorias h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.categorias p{
+    font-size: 12px;
+}
+
+.caja7{
+    text-align: center;
+    color: rgb(53,58,64);
+}
+.caja7 h1{
+    font-size: 12px;
+}
+.caja7 h2{
+    font-size: 26px;
+}
+
+.caja8{
+    width: 50%;
+    color: grey;
+}
+.caja8 input{
+    margin-bottom: 5%;
+}
+.caja9{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(204,229,255);
+    border-radius: 5%;
+    color:rgb(72,79,146) ;
+    margin-bottom: 5%;
+}
+
+.caja9 h1{
+    font-size: 18px;
+    padding-top: 2%;
+}
+.form-select{
+    color: gray;
+}
+

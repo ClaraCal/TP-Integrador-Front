@@ -124,6 +124,77 @@
       <input type="submit" class="boton text-light" style="border:0; text-emphasis: bold;">
     </form>
   </div>
+<div class="container-fluid" id="compraTickets">
+    <div class="row justify-content-center p-5 gx-5 categorias">
+      <div class="col-12 col-lg-2 estudiante" >
+        <h1>Estudiante</h1>
+        <h2>Tiene un descuento</h2>
+        <br>
+        <h3>80%</h3>
+        <br>
+        <p>*presentar documentación</p>
+      </div>
+      <div class="col-12 col-lg-2 trainee" >
+        <h1>Trainee</h1>
+        <h2>Tiene un descuento</h2>
+        <br>
+        <h3>50%</h3>
+        <br>
+        <p>*presentar documentación</p>
+      </div>
+      <div class="col-12 col-lg-2  junior" >
+        <h1>Junior</h1>
+        <h2>Tiene un descuento</h2>
+        <br>
+        <h3>15%</h3>
+        <br>
+        <p>*presentar documentación</p>
+      </div>
+    </div>
+    <div class="caja7" >
+      <h1>VENTA</h1>
+      <h2>VALOR DE TICKET $200</h2>
+    </div>
+    <div class="container-fluid caja8" >
+      <form action="">
+        <div class="row ">
+          <div class="col-md-6">
+            <input type="text " class="form-control" placeholder="Nombre" id="nombre">
+          </div>
+          <div class="col-md-6">
+            <input type="text " class="form-control" placeholder="Apellido" id="apellido">
+          </div>
+          <div class="col-12">
+            <input type="email" class="form-control" placeholder="Correo" id="correo">
+          </div>
+          <div class="col-md-6">
+            <label for="cantidad" class="form-label">Cantidad</label>
+            <input type="number" min="0" class="form-control" placeholder="Cantidad" id="cantidad">
+          </div>
+          <div class="col-md-6">
+            <label for="categoria" class="form-label">Categoría</label>
+            <select id="categoria" class="form-select">
+              <option selected>Estudiante</option>
+              <option>Trainee</option>
+              <option>Junior</option>
+            </select>
+          </div>
+        </div>
+        <div class="container-fluid caja9">
+          <h1>Total a pagar:$ <span id="montoapagar"></span></h1>
+        </div>
+        <div class="row ">
+          <div class="col-12">
+            <input type="reset" class="boton text-light" style="border:0; text-emphasis: bold;" value="Borrar">
+          </div>
+          <div class="col-12">
+            <input type="submit" class="boton text-light" style="border:0; text-emphasis: bold;" value="Resumen">  
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
 
 
   <footer class="navbar navbar-expand-lg navbar-dark px-5 footer">
