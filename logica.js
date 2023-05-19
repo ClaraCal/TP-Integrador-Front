@@ -42,13 +42,12 @@ function descuento(cat){
     return dto;
 }
 
-let cuenta = inputcantidad.value * descuento(selectcategoria.value)*200;
-
-
 inputcantidad.onchange = function () {
+    let cuenta = inputcantidad.value * descuento(selectcategoria.value)*200;
     spanmontoapagar.innerHTML= cuenta;
 }
 
 selectcategoria.onchange = function () {
+    let cuenta = inputcantidad.value * descuento(selectcategoria.value)*200;
     spanmontoapagar.innerHTML= cuenta;
 }
