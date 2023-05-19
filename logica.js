@@ -33,10 +33,22 @@ const inputcantidad = document.getElementById("cantidad");
 const selectcategoria = document.getElementById("categoria");
 const spanmontoapagar = document.getElementById("montoapagar");
 
-let descuento = function(){if (selectcategoria=="Estudiante") {0.2;
-} else if (selectcategoria == "Trainee") {0.5;
-} else {0.85;
-} }
+function descuento(cat){
+    let dto;
+    if (cat=="estudiante") {dto=0.2;
+    } else if (cat == "trainee") {dto=0.5;
+    } else {dto=0.85;
+    } 
+    return dto;
+}
 
-let totalApagar = inputcantidad * descuento;
+let cuenta = inputcantidad.value * descuento(selectcategoria.value)*200;
 
+
+inputcantidad.onchange = function () {
+    spanmontoapagar.innerHTML= cuenta;
+}
+
+selectcategoria.onchange = function () {
+    spanmontoapagar.innerHTML= cuenta;
+}
