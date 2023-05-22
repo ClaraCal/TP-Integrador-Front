@@ -31,6 +31,7 @@ buttonbotonCompra2.onclick=function () {
 
 const inputcantidad = document.getElementById("cantidad");
 const selectcategoria = document.getElementById("categoria");
+const inputreset = document.getElementById("reset");
 const spanmontoapagar = document.getElementById("montoapagar");
 
 function descuento(cat){
@@ -50,4 +51,8 @@ inputcantidad.onchange = function () {
 selectcategoria.onchange = function () {
     let cuenta = inputcantidad.value * descuento(selectcategoria.value)*200;
     spanmontoapagar.innerHTML= cuenta;
+}
+
+inputreset.onclick = function () {
+    spanmontoapagar.innerHTML= 0;
 }
